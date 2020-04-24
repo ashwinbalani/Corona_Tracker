@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/crdMain"
+        app:cardElevation="10dp"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:id="@+id/imgCapture"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:padding="10dp"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imgCapture"
+                    android:id="@+id/lblLocation"
+                    android:padding="10dp"
+                    ></TextView>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lblLocation"
+                    android:text="I agree to all the terms and conditions"
+                    android:padding="10dp"
+                    android:id="@+id/chkConditions"
+                    android:layout_centerHorizontal="true"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_large"
+                    ></CheckBox>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnPost"
+                    android:text="Post"
+                    android:layout_below="@id/chkConditions"
+                    android:layout_centerHorizontal="true"
+                    ></Button>
+            </RelativeLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

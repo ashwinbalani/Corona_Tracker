@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="actionbar_bg">#bbf</color>
+    <color name="event_date_display_color">#f6804e</color>
+    <color name="colorPrimary">#6699ff</color>
+    <color name="colorPrimaryDark">#6699ff</color>
+    <color name="light_pink">#bbf</color>
+    <color name="actionbar_top_bg">#bbf</color>
+    <color name="gray">#666666</color>
+    <color name="black">#000000</color>
+    <color name="black_alpha">#11000000</color>
+    <color name="primary_alpha">#116699ff</color>
+    <color name="orange">#f6804e</color>
+    <color name="blue">#55fcf9</color>
+    <color name="answer_text">#ff222222</color>
+    <color name="gray_bg">#E5E5E5</color>
+    <color name="signup_button_text">#3D678C</color>
+    <color name="gray_text">#757575</color>
+    <color name="light_gray">#ffd9d9d9</color>
+    <color name="dark_blue">#808285</color>
+    <color name="light_blue">#34B5E5</color>
+    <color name="gray_border">#D3D3D3</color>
+    <color name="content_page">#F2F2F2</color>
+    <color name="avatar_border">#F2F2F2</color>
+    <color name="gray_button_text_color">#288EC1</color>
+    <color name="toolBar">#204062</color>
+    <color name="hashTag">#5BCFF2</color>
+    <color name="green">#1ebe1b</color>
+    <color name="sponsored">#FF8500</color>
+    <color name="pin">#DB4437</color>
+    <color name="repost_bg">#bed8e4fd</color>
+    <color name="link_container_bg">#f7f7f7</color>
+
+    <color name="item_list_divider">#d9d9d9</color>
+    <color name="item_row_start_color">#ffffff</color>
+    <color name="item_row_end_color">#ffffff</color>
+    <color name="item_row_hover_start_color">#ebeef0</color>
+    <color name="item_row_hover_end_color">#ebeef0</color>
+
+    <color name="drawer_divider">#1E2531</color>
+    <color name="drawer_bg">#1E2531</color>
+    <color name="drawer_item_bg">#1E2531</color>
+    <color name="drawer_item_select_bg">#292F3B</color>
+    <color name="drawer_item_text">#FFFFFF</color>
+
+    <color name="colorPrimaryButton">#808285</color>
+    <color name="colorPrimaryButtonPressed">#395899</color>
+    <color name="colorPrimaryButtonDisabled">#000000</color>
+
+    <color name="colorFacebookButton">#3B5998</color>
+    <color name="colorFacebookButtonPressed">#345291</color>
+    <color name="colorFacebookButtonDisabled">#e6878787</color>
+
+    <color name="textColorPrimary">#000000</color>
+    <color name="statusBarColor">#ffffff</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#3B5998</color>
+    <color name="colorFloatActionButton">#808285</color>
+    <color name="colorRipple">#2f4c87</color>
+    <color name="tabLayoutBackground">#EEEEEE</color>
+    <color name="listViewDivider">#F0F3F5</color>
+    <color name="listViewDivider2">#E1E8ED</color>
+    <color name="postSeparatorLine">#e8f0f5</color>
+    <color name="colorCounterBackground">#34B5E5</color>
+
+    <color name="nav_drawer_item_text_color">#37474F</color>
+    <color name="nav_drawer_item_icon_tint">#757575</color>
+
+    <color name="list_divider">#dedede</color>
+    <color name="bg_bubble_self">#E1E1E1</color>
+    <color name="bg">#f5f5f5</color>
+    <color name="bgnew">#464756</color>
+
+    <color name="filtersfab">#3f51b5</color>
+    <color name="filters_header">#303f9f</color>
+    <color name="filters_buttons">#ff4081</color>
+    <color name="filters_buttons_selected">#c2185b</color>
+    <color name="filters_chips">#b3e5fc</color>
+
+    <color name="colorRed">#ff1111</color>
+</resources>

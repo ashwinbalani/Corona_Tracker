@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    android:id="@+id/lay_view_news_item"
+    >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lblMainDetails"
+            android:padding="10dp"
+            android:text="Recent Reports"
+            android:textSize="@dimen/text_size_large"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/black"
+            ></TextView>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prgMain"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:visibility="gone"
+                ></ProgressBar>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lstNearbyReports"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:layout_below="@+id/lblMainDetails"
+            ></ListView>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabAddNewImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_add"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/black"
+            fab:fab_size="mini"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_refresh"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            fab:fab_colorNormal="@color/colorPrimary"
+            fab:fab_colorPressed="@color/black"
+            fab:fab_size="mini"
+            />
+</RelativeLayout>

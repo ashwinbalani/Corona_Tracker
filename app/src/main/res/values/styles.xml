@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PhotoViewTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+        <item name="android:spinnerItemStyle">@style/MooSpinnerItem</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="backgroundColor">@color/white</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="textColor">@color/black</item>
+        <item name="tintColor">@color/white</item>
+        <item name="buttonColor">@color/transparent</item>
+
+    </style>
+
+    <style name="MyMaterialThemeDark" parent="MyMaterialTheme.Base">
+        <item name="android:spinnerItemStyle">@style/MooSpinnerItem</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="backgroundColor">@color/black</item>
+        <item name="cardBackgroundColor">@color/black</item>
+        <item name="textColor">@color/white</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">@color/transparent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.DayNight">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="NavDrawerStyle" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">#0D000000</item> 
+        <item name="listPreferredItemHeightSmall">60dp</item>
+    </style>
+
+    <style name="NavDrawerItemTextStyle" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Spinner text color -->
+
+    <style name="MooSpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/MooTextAppearanceSpinnerItem</item>
+    </style>
+
+
+    <style name="MooTextAppearanceSpinnerItem" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="MooTextAppearanceSpinnerItem2" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="AppActionBar2"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_bg</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/actionbar_bg</item>
+    </style>
+    <style name="MyMaterialTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="MyMaterialTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyRippleStyleLight">
+        <item name="mrl_rippleAlpha">0.2</item>
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#C0FFFAFF</item>
+        <item name="mrl_rippleDelayClick">true</item>
+        <item name="mrl_rippleHover">true</item>
+    </style>
+    <style name="circularImageViewStyle">
+
+    </style>
+
+    <style name="MyRippleStyleDark" parent="MyRippleStyleLight">
+        <item name="mrl_rippleColor">#9096889A</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>
+    <style name="DialogTheme" parent="android:Theme.Dialog">
+
+        <item name="android:layout_width">500dp</item>
+        <item name="android:layout_height">500dp</item>
+
+    </style>
+
+    <style name="rounded_button_text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>
